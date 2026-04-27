@@ -1,0 +1,152 @@
+@charset "utf-8";
+nav {
+    text-align: center;
+    background-color: #338BD3;
+    height: 25px;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding: 10px 10px 15px 0px;
+    font-weight: normal;
+    font-size: 20px;
+}
+nav li {
+	display: inline;
+}
+nav a {
+    margin: 25px 0px 0px 5px;
+    padding: 10px 20px 30px 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgba(16,63,144,1.00);
+}
+header {
+	text-align: center;
+    width: 100%;
+    height: 100%;
+}
+img {
+	padding-top: 10px;
+}
+footer {
+	text-align: center;
+	padding-top: 15px;
+}
+.portfolio-card {
+	width: auto;
+    margin: 25px auto 0px auto;
+	padding: 5px 15px 15px 15px;
+    min-height: 250px;
+    background-color: rgba(0,0,0,0.10);
+}
+.portfolio-card h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.portfolio-card li {
+	text-align: center;
+	list-style-type: none;
+}
+.portfolio-card p {
+    font-size: 24px;
+	text-align: center;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.contact-card {
+    width: 650px;
+    margin: 25px auto 0px auto;
+    padding: 5px 15px 15px 15px;
+    min-height: 0;
+    background-color: rgba(0,0,0,0.10);
+}
+.contact-card h2 {
+    text-align: center;
+    font-weight: normal;
+}
+.contact-card li {
+	text-align: center;
+	padding-top: 15px;
+	list-style-type: none;
+}
+#message {
+	width: 500px;
+	height: 250px;
+}
+.port-link {
+    text-decoration: none;
+    color: #0F1955;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: large;
+	margin-bottom: 15px;
+}
+.port-link:hover {
+	color: rgba(95,147,209,1.00);
+}
+.resume-card {
+	width: 850px;
+    margin: 25px auto 0px auto;
+	padding: 5px 15px 15px 15px;
+    min-height: 250px;
+    background-color: rgba(0,0,0,0.10);
+}
+.image-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	overflow: hidden;
+}
+.my-images {
+    width: 300px;
+    height: auto;
+	object-fit: cover;
+}
+.symbol {
+	height: 15px;
+	width: 15px;
+}
+.home-card {
+    width: 950px;
+    height: 260px;
+    margin: 25px auto 0px auto;
+    padding: 5px 15px 15px 15px;
+    min-height: 0;
+    background-color: rgba(0,0,0,0.10);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.home-card img {
+	float: left;
+	margin: -10px 10px 10px -10px;
+}
+.home-card p {
+	margin: 70px 100px 0px 250px;
+	letter-spacing: 1px;
+}
+.inside-port {
+	width: 500px;
+    height: auto;
+	object-fit: cover;
+}
+.auto-port {
+	width: auto;
+    height: auto;
+	object-fit: cover;
+}
+.big-port {
+	width: 600px;
+    height: auto;
+	object-fit: cover;
+}
